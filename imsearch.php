@@ -5,7 +5,6 @@
 		<title>Suchen - HolzEffekt</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
-		<meta name="author" content="Dennis Spliesgar" />
 		<meta name="generator" content="Incomedia WebSite X5 Evo 2023.2.6 - www.websitex5.com" />
 		<meta property="og:image" content="http://localhost/favImage.png" />
 		<meta property="og:image:type" content="image/png">
@@ -17,19 +16,15 @@
 		<link rel="stylesheet" href="style/print.css?2023-2-6-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2023-2-6-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
-		
-		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147111064264110" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147135637885841" media="screen,print" />
 		<script src="res/jquery.js?2023-2-6-0"></script>
 		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
-		
-		<script src="pluginAppObj/imFooter_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2023-2-6-0-639147111064107845" type="image/png" />
+		<link rel="icon" href="favicon.png?2023-2-6-0-639147135637855791" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -39,12 +34,7 @@
 				<div id="imPage">
 					<header id="imHeader">
 						<h1 class="imHidden">Suchen - HolzEffekt</h1>
-						<div id="imHeaderObjects"></div>
-					</header>
-					<div id="imStickyBarContainer">
-						<div id="imStickyBarGraphics"></div>
-						<div id="imStickyBar">
-							<div id="imStickyBarObjects"><div id="imStickyBar_imMenuObject_04_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imStickyBar_imMenuObject_04"><div id="imStickyBar_imMenuObject_04_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+						<div id="imHeaderObjects"><div id="imHeader_imMenuObject_01_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_01"><div id="imHeader_imMenuObject_01_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
 	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
 		<div class="hamburger-menu-close-button"><span>&times;</span></div>
 	</div>
@@ -58,23 +48,51 @@ Homepage		</a>
 </div>
 </div>
 	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
-var imStickyBar_imMenuObject_04_settings = {
-	'menuId': 'imStickyBar_imMenuObject_04',
-	'responsiveMenuEffect': 'scale',
+var imHeader_imMenuObject_01_settings = {
+	'menuId': 'imHeader_imMenuObject_01',
+	'responsiveMenuEffect': 'none',
+	'responsiveMenuLevelOpenEvent': 'mouseover',
+	'animationDuration': 0,
+}
+x5engine.boot.push(function(){x5engine.initMenu(imHeader_imMenuObject_01_settings)});
+$(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0, subtimeout = 0, width = 'none', height = 'none';        var submenu = $this.children('ul').add($this.find('.multiple-column > ul'));    $this.on('mouseenter', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        clearTimeout(subtimeout);        $this.children('.multiple-column').show(0);        submenu.stop(false, false);        if (width == 'none') {             width = submenu.width();        }        if (height == 'none') {            height = submenu.height();            submenu.css({ overflow : 'hidden', height: 0});        }        setTimeout(function () {         submenu.css({ overflow : 'hidden'}).fadeIn(1).animate({ height: height }, 300, null, function() {$(this).css('overflow', 'visible'); });        }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () {         submenu.stop(false, false);            submenu.css('overflow', 'hidden').animate({ height: 0 }, 300, null, function() {$(this).fadeOut(0); });            subtimeout = setTimeout(function () { $this.children('.multiple-column').hide(0); }, 300);        }, 250);    });});});
+
+</script>
+</div><div id="imHeader_imObjectTitle_03_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_03"><span id ="imHeader_imObjectTitle_03_text" >Title</span></div></div></div>
+					</header>
+					<div id="imStickyBarContainer">
+						<div id="imStickyBarGraphics"></div>
+						<div id="imStickyBar">
+							<div id="imStickyBarObjects"><div id="imStickyBar_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imStickyBar_imObjectTitle_02"><span id ="imStickyBar_imObjectTitle_02_text" >Title</span></div></div><div id="imStickyBar_imMenuObject_03_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imStickyBar_imMenuObject_03"><div id="imStickyBar_imMenuObject_03_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
+		<div class="hamburger-menu-close-button"><span>&times;</span></div>
+	</div>
+</div>
+<ul class="menu-mobile-animated hidden">
+	<li class=" imPage" data-link-paths=",/index.html,/">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="index.html">
+Homepage		</a>
+</div>
+</div>
+	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+var imStickyBar_imMenuObject_03_settings = {
+	'menuId': 'imStickyBar_imMenuObject_03',
+	'responsiveMenuEffect': 'slide',
 	'responsiveMenuLevelOpenEvent': 'mouseover',
 	'animationDuration': 1000,
 }
-x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_04_settings)});
-$(function () {$('#imStickyBar_imMenuObject_04_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_04_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_04_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
+x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_03_settings)});
+$(function () {$('#imStickyBar_imMenuObject_03_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0, subtimeout = 0, width = 'none', height = 'none';        var submenu = $this.children('ul').add($this.find('.multiple-column > ul'));    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_03_container-menu-opened').length > 0) return;         clearTimeout(timeout);        clearTimeout(subtimeout);        $this.children('.multiple-column').show(0);        submenu.stop(false, false);        if (width == 'none') {             width = submenu.width();        }        if (height == 'none') {            height = submenu.height();            submenu.css({ overflow : 'hidden', height: 0});        }        setTimeout(function () {         submenu.css({ overflow : 'hidden'}).fadeIn(1).animate({ height: height }, 300, null, function() {$(this).css('overflow', 'visible'); });        }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_03_container-menu-opened').length > 0) return;         timeout = setTimeout(function () {         submenu.stop(false, false);            submenu.css('overflow', 'hidden').animate({ height: 0 }, 300, null, function() {$(this).fadeOut(0); });            subtimeout = setTimeout(function () { $this.children('.multiple-column').hide(0); }, 300);        }, 250);    });});});
 
 </script>
-</div><div id="imStickyBar_imObjectTitle_06_wrapper" class="template-object-wrapper"><div id="imStickyBar_imObjectTitle_06"><span id ="imStickyBar_imObjectTitle_06_text" ><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">Architect</a></span></div></div><div id="imStickyBar_imObjectImage_07_wrapper" class="template-object-wrapper"><div id="imStickyBar_imObjectImage_07"><div id="imStickyBar_imObjectImage_07_container"><img src="images/BG_LOGO_YELLOE.jpg" title="" alt="" width="140" height="60" />
-</div></div></div></div>
+</div></div>
 						</div>
 					</div>
 					<a class="imHidden" href="#imGoToCont" title="Überspringen Sie das Hauptmenü">Direkt zum Seiteninhalt</a>
 					<div id="imSideBar">
-						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="images/empty-GT_imagea-1--1-.png" title="" alt="" width="140" height="140" />
+						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="images/empty-GT_imagea-1-.png" title="" alt="" width="140" height="140" />
 </div></div></div></div>
 					</div>
 					<div id="imContentGraphics"></div>
@@ -94,25 +112,15 @@ $(function () {$('#imStickyBar_imMenuObject_04_container ul li').not('.imMnMnSep
 						
 					</main>
 					<footer id="imFooter">
-						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >MADE WITH WEBSITEX5</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
+						<div id="imFooterObjects"><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
 	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
 		<div class="text-inner">
-			<div data-line-height="1.15" class="lh1-15 imTACenter"><span class="fs11lh1-15 cf1">Sed consequat, leo eget bibendum sodales, augue velit cursus nunc.</span></div>
+			<div class="imTACenter"><div><span class="fs10lh1-5 cf1">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span></div></div>
 		</div>
 	</div>
 
 </div>
-</div><div id="imFooter_pluginAppObj_03_wrapper" class="template-object-wrapper"><!-- Social Icons v.20 --><div id="imFooter_pluginAppObj_03">
-            <div id="soc_imFooter_pluginAppObj_03">
-                <div class="wrapper horizontal flat grow">
-                	<div class='social-icon flat'><a href='https://fb.me/Incomedia' target='_blank' aria-label='facebook'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://www.youtube.com/user/incomedia' target='_blank' aria-label='youtube'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M89.2,34S88.42,28.49,86,26.06c-3-3.19-6.45-3.14-8-3.32C66.81,21.93,50,22,50,22h0s-16.79-.07-28,0.74c-1.56.19-5,.17-8,3.36C11.58,28.53,10.8,34,10.8,34A120.47,120.47,0,0,0,10,47V53A121,121,0,0,0,10.8,66s0.78,5.51,3.18,7.94c3,3.19,7,3.09,8.82,3.42,6.4,0.61,27.2.8,27.2,0.8s16.81,0,28-.83a11.44,11.44,0,0,0,8-3.39C88.42,71.48,89.2,66,89.2,66A121.16,121.16,0,0,0,90,53V47A121.16,121.16,0,0,0,89.2,34ZM41.74,60.38V37.9L63.35,49.18Z"/></g></svg><span class='fallbacktext'>Yt</span></a></div><div class='social-icon flat'><a href='https://twitter.com/Incomedia' target='_blank' aria-label='x'><svg width="100%" height="100%" viewBox="0 0 100 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;"><g transform="matrix(0.233139,0,0,0.233139,15.0291,15)"><path d="M178.57,127.15L290.27,0L263.81,0L166.78,110.38L89.34,0L0,0L117.13,166.93L0,300.25L26.46,300.25L128.86,183.66L210.66,300.25L300,300.25M36.01,19.54L76.66,19.54L263.79,281.67L223.13,281.67" style="fill-rule:nonzero;"/></g></svg><span class='fallbacktext'>X</span></a></div><div class='social-icon flat'><a href='https://it.linkedin.com/company/incomedia' target='_blank' aria-label='linkedin'><svg  xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M30,86H15V39H30V86ZM23.19,31.82a8.47,8.47,0,1,1,8.47-8.47A8.47,8.47,0,0,1,23.19,31.82ZM85,86H71V62.4c0-5.45.07-12.47-7.41-12.47S55,55.87,55,62V86H41V39H54v4H53.87c1.95-1,6.61-6.76,13.72-6.76C82.37,36.24,85,46.81,85,59.47V86Z"/></g></svg><span class='fallbacktext'>In</span></a></div>
-                </div>
-
-            </div>
-                <script>
-                    socialicons_imFooter_pluginAppObj_03();
-                </script>
-        </div></div></div>
+</div></div>
 					</footer>
 				</div>
 				<span class="imHidden"><a href="#imGoToCont" title="Lesen Sie den Inhalt der Seite noch einmal durch">Zurück zum Seiteninhalt</a></span>
