@@ -1,7 +1,8 @@
+<?php require_once("res/x5engine.php"); ?>
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="de-DE" dir="ltr">
 	<head>
-		<title>HolzEffekt</title>
+		<title>Suchen - HolzEffekt</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="author" content="Dennis Spliesgar" />
@@ -16,15 +17,15 @@
 		<link rel="stylesheet" href="style/print.css?2023-2-6-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2023-2-6-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
-		<link rel="stylesheet" href="pcss/index.css?2023-2-6-0-639147211056366682" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147211056679366" media="screen,print" />
 		<script src="res/jquery.js?2023-2-6-0"></script>
 		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
-			x5engine.utils.currentPagePath = 'index.html';
+			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2023-2-6-0-639147211056210395" type="image/png" />
+		<link rel="icon" href="favicon.png?2023-2-6-0-639147211056679366" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -33,7 +34,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">HolzEffekt</h1>
+						<h1 class="imHidden">Suchen - HolzEffekt</h1>
 						<div id="imHeaderObjects"></div>
 					</header>
 					<div id="imStickyBarContainer">
@@ -49,23 +50,18 @@
 					<div id="imContentGraphics"></div>
 					<main id="imContent">
 						<a id="imGoToCont"></a>
-						<div id="imPageRow_1" class="imPageRow">
-						
+						<div id="imSearchPage">
+						<h2 id="imPgTitle">Suchergebnisse</h2>
+						<?php
+						$search = new imSearch();
+						$keys = isset($_GET['search']) ? @htmlspecialchars($_GET['search'], ENT_COMPAT) : "";
+						$page = isset($_GET['page']) ? @htmlspecialchars($_GET['page']) : 0;
+						$type = isset($_GET['type']) ? @htmlspecialchars($_GET['type']) : "pages"; ?>
+						<div class="searchPageContainer">
+						<?php echo $search->search($keys, $page, $type); ?>
 						</div>
-						<div id="imCell_1" class=""> <div id="imCellStyleGraphics_1"></div><div id="imCellStyleBorders_1"></div><div id="imTextObject_01">
-							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_01_tab0" style="opacity: 1; ">
-								<div class="text-inner">
-									<div class="imTACenter"><span class="fs48lh1-5 ff1">HolzEffekt</span></div>
-								</div>
-							</div>
-						
 						</div>
-						</div><div id="imPageRow_2" class="imPageRow">
 						
-						</div>
-						<div id="imCell_2" class=""> <div id="imCellStyleGraphics_2"></div><div id="imCellStyleBorders_2"></div><div id="imObjectImage_02"><div id="imObjectImage_02_container"><img src="images/Unbenannt.png" title="" alt="" width="535" height="239" />
-						</div></div></div><div id="imCell_3" class=""> <div id="imCellStyleGraphics_3"></div><div id="imCellStyleBorders_3"></div><div id="imObjectImage_03"><div id="imObjectImage_03_container"><img src="images/129627596_121007779828917_7275507504917613652_n.jpg" title="" alt="" width="535" height="535" />
-						</div></div></div>
 					</main>
 					<footer id="imFooter">
 						<div id="imFooterObjects"></div>
