@@ -17,7 +17,7 @@
 		<link rel="stylesheet" href="style/print.css?2023-2-6-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2023-2-6-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147211056679366" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147244642029153" media="screen,print" />
 		<script src="res/jquery.js?2023-2-6-0"></script>
 		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
 		<script>
@@ -25,7 +25,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2023-2-6-0-639147211056679366" type="image/png" />
+		<link rel="icon" href="favicon.png?2023-2-6-0-639147244642029153" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
