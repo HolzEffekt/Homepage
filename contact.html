@@ -1,8 +1,7 @@
-<?php require_once("res/x5engine.php"); ?>
 <!DOCTYPE html><!-- HTML5 -->
 <html prefix="og: http://ogp.me/ns#" lang="de-DE" dir="ltr">
 	<head>
-		<title>Suchen - Neues Projekt</title>
+		<title>CONTACT - Neues Projekt</title>
 		<meta charset="utf-8" />
 		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
 		<meta name="author" content="Incomedia" />
@@ -13,19 +12,23 @@
 		<link rel="stylesheet" href="style/print.css?2023-2-6-0" media="print" />
 		<link rel="stylesheet" href="style/style.css?2023-2-6-0" media="screen,print" />
 		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
+		<link rel="stylesheet" href="pluginAppObj/pluginAppObj_5_30/custom.css" media="screen, print" />
+		<style type="text/css">#pluginAppObj_5_33 { width: 100%; }</style>
+		<style type="text/css">#pluginAppObj_5_34 { width: 100%; }</style>
 		
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147080803932976" media="screen,print" />
+		<link rel="stylesheet" href="pcss/contact.css?2023-2-6-0-639147080808933363" media="screen,print" />
 		<script src="res/jquery.js?2023-2-6-0"></script>
 		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
+		<script src="appsresources/googleMapsPA.js"></script>
 		
 		<script src="pluginAppObj/imFooter_pluginAppObj_03/main.js"></script>
 		<script>
 			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
-			x5engine.utils.currentPagePath = 'imsearch.php';
+			x5engine.utils.currentPagePath = 'contact.html';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2023-2-6-0-639147080803932976" type="image/png" />
+		<link rel="icon" href="favicon.png?2023-2-6-0-639147080806745723" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -34,7 +37,7 @@
 				<div id="imFooterBg"></div>
 				<div id="imPage">
 					<header id="imHeader">
-						<h1 class="imHidden">Suchen - Neues Projekt</h1>
+						<h1 class="imHidden">CONTACT - Neues Projekt</h1>
 						<div id="imHeaderObjects"></div>
 					</header>
 					<div id="imStickyBarContainer">
@@ -97,18 +100,98 @@ $(function () {$('#imStickyBar_imMenuObject_04_container ul li').not('.imMnMnSep
 					<div id="imContentGraphics"></div>
 					<main id="imContent">
 						<a id="imGoToCont"></a>
-						<div id="imSearchPage">
-						<h2 id="imPgTitle">Suchergebnisse</h2>
-						<?php
-						$search = new imSearch();
-						$keys = isset($_GET['search']) ? @htmlspecialchars($_GET['search'], ENT_COMPAT) : "";
-						$page = isset($_GET['page']) ? @htmlspecialchars($_GET['page']) : 0;
-						$type = isset($_GET['type']) ? @htmlspecialchars($_GET['type']) : "pages"; ?>
-						<div class="searchPageContainer">
-						<?php echo $search->search($keys, $page, $type); ?>
+						<div id="imPageRow_1" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_1"><div id="imPageRowGraphicsOverlay_1"></div></div></div>
 						</div>
-						</div>
+						<div id="imCell_4" class=""> <div id="imCellStyleGraphics_4"></div><div id="imCellStyleBorders_4"></div><div id="imTextObject_5_04">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_5_04_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading2 imTACenter">CONTACT</div>
+								</div>
+							</div>
 						
+						</div>
+						</div><div id="imPageRow_2" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_2" class="imContentDataContainer"></div></div>
+						</div>
+						<div id="imCell_15" class=""> <div id="imCellStyleGraphics_15"></div><div id="imCellStyleBorders_15"></div><div id="imTextObject_5_15">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_5_15_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imTACenter"><span class="cf1"><span class="fs16lh1-5">Donec vitae sapien ut libero venenatis faucibus. </span></span></div><div class="imTACenter"><span class="cf1"><span class="imTALeft fs20lh1-5"><span><a href="tel:00012345678" class="imCssLink">+00 012 345 678</a></span> - <span><a href="mailto:info@example.com?subject=&amp;body=" class="imCssLink">info@example.com</a></span></span></span></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_3" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_3" class="imContentDataContainer"></div></div>
+						</div>
+						<div id="imCell_30" class=""> <div id="imCellStyleGraphics_30"></div><div id="imCellStyleBorders_30"></div><!-- Google Maps v.16 --><div id="pluginAppObj_5_30">
+						          
+						<script>
+						(function(){
+							var gm = paGoogleMaps('pluginAppObj_5_30', false);
+							_jq(document).ready(function(){gm.createIFrame('https://www.google.com/maps/embed/v1/place?key=AIzaSyBpiGf-qNlzyMrRhEbxO8mZG5QvHYHvd2c&q=Turin&zoom=13&maptype=roadmap')});
+						})();
+						</script>
+						
+						        </div></div><div id="imCell_14" class=""> <div id="imCellStyleGraphics_14"></div><div id="imCellStyleBorders_14"></div><div id="imTextObject_5_14">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_5_14_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading2 imTACenter"><span class="cf1">ADDRESS</span></div><div><div class="imTACenter"><span class="fs14lh1-5 cf2">Dolor sit amet, 12</span></div><div class="imTACenter"><span class="cf2">12345 Consectetur </span><span class="fs14lh1-5 cf2">(Adipiscing)</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_4" class="imPageRow">
+						
+						</div>
+						<div id="imCell_24" class=""> <div id="imCellStyleGraphics_24"></div><div id="imCellStyleBorders_24"></div><div id="imTextObject_5_24">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_5_24_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading4 imTACenter">Donec vitae venenatis faucibus quis ante.</div><div><div class="imTACenter"><span class="fs14lh1-5"><br></span></div><div class="imTACenter"><span class="fs14lh1-5">Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. </span></div><div class="imTACenter"><span class="fs14lh1-5"><br></span></div><div data-line-height="2" class="lh2 imTACenter"><span class="fs14lh2">Quisque rutrum. </span></div><div data-line-height="2" class="lh2 imTACenter"><span class="fs14lh2">Aenean imperdiet. </span></div><div data-line-height="2" class="lh2 imTACenter"><span class="fs14lh2">Etiam ultricies nisi vel augue.</span></div><div data-line-height="2" class="lh2 imTACenter"><span class="fs14lh2">Curabitur ullamcorper ultricies nisi. </span></div><div data-line-height="2" class="lh2 imTACenter"><span class="fs14lh2">Nam eget dui.</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imPageRow_5" class="imPageRow">
+						<div style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; overflow: hidden;"><div id="imPageRowGraphics_5"></div></div>
+						</div>
+						<div id="imCell_31" class=""> <div id="imCellStyleGraphics_31"></div><div id="imCellStyleBorders_31"></div><div id="imTextObject_5_31">
+							<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imTextObject_5_31_tab0" style="opacity: 1; ">
+								<div class="text-inner">
+									<div class="imHeading4 imTACenter"><span class="cf1">Send a message</span></div><div><div data-line-height="1.15" class="lh1-15 imTACenter"><br></div><div class="imTACenter"><span class="fs14lh1-5 cf2">Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet.</span></div></div>
+								</div>
+							</div>
+						
+						</div>
+						</div><div id="imCell_32" class=""> <div id="imCellStyleGraphics_32"></div><div id="imCellStyleBorders_32"></div><div id="imObjectForm_5_32">	<form id="imObjectForm_32_form" action="imemail/imEmailForm.php" method="post" enctype="multipart/form-data">
+								<fieldset class="first">
+								<div>
+									<div id="imObjectForm_32_1_container" class="imObjectFormFieldContainer"><div id="imObjectForm_32_1_field">
+						<input type="text" class="mandatory " id="imObjectForm_32_1" name="imObjectForm_32_1" placeholder="Your Name*" /></div>
+						</div>
+									<div id="imObjectForm_32_2_container" class="imObjectFormFieldContainer"><div id="imObjectForm_32_2_field">
+						<input type="email" class="mandatory valEmail" id="imObjectForm_32_2" name="imObjectForm_32_2" placeholder="Your E-mail*" /></div>
+						</div>
+									<div id="imObjectForm_32_3_container" class="imObjectFormFieldContainer"><div id="imObjectForm_32_3_field">
+						<textarea class="mandatory " id="imObjectForm_32_3" name="imObjectForm_32_3"  placeholder="Message*"></textarea></div>
+						</div>
+									</div>
+								</fieldset>
+								<fieldset>
+									<input type="text" id="imObjectForm_32_prot" name="imSpProt" />
+								</fieldset>
+								<div id="imObjectForm_32_buttonswrap">
+									<input type="submit" value="Senden" />
+								</div>
+							</form>
+						</div>
+						<script>x5engine.boot.push('x5engine.imForm.initForm(\'#imObjectForm_32_form\', false, {jsid: \'6AEF8EE9A0A20D7A246AAE3C646EA113\', type: \'tip\', showAll: true, classes: \'validator\', landingPage: \'about.html\', phpAction: \'imemail/imEmailForm.php\', feedbackMode: \'showPage\', messageBackground: \'rgba(255, 255, 255, 1)\', messageBackgroundBlur: false, labelColor: \'rgba(15, 15, 15, 1)\', fieldColor: \'rgba(67, 67, 67, 1)\', selectedFieldColor: \'rgba(15, 15, 15, 1)\'})');</script>
+						</div><div id="imCell_33" class=""> <div id="imCellStyleGraphics_33"></div><div id="imCellStyleBorders_33"></div><!-- Simple Separator v.2 --><div id="pluginAppObj_5_33">
+						            <div style="width: 100%; height: 1px"></div>
+						        </div></div><div id="imCell_34" class=""> <div id="imCellStyleGraphics_34"></div><div id="imCellStyleBorders_34"></div><!-- Simple Separator v.2 --><div id="pluginAppObj_5_34">
+						            <div style="width: 100%; height: 1px"></div>
+						        </div></div>
 					</main>
 					<footer id="imFooter">
 						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >MADE WITH WEBSITEX5</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
