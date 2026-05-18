@@ -15,7 +15,7 @@
 		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
 		
 		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_03/custom.css" media="screen, print" />
-		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147080803932976" media="screen,print" />
+		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639147086894635148" media="screen,print" />
 		<script src="res/jquery.js?2023-2-6-0"></script>
 		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
 		
@@ -25,7 +25,7 @@
 			x5engine.utils.currentPagePath = 'imsearch.php';
 			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
 		</script>
-		<link rel="icon" href="favicon.png?2023-2-6-0-639147080803932976" type="image/png" />
+		<link rel="icon" href="favicon.png?2023-2-6-0-639147086894635148" type="image/png" />
 	</head>
 	<body>
 		<div id="imPageExtContainer">
@@ -46,32 +46,11 @@
 	</div>
 </div>
 <ul class="menu-mobile-animated hidden">
-	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
+	<li class=" imPage" data-link-paths=",/index.html,/">
 <div class="label-wrapper">
 <div class="label-inner-wrapper">
 		<a class="label" href="index.html">
 Homepage		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/about.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="about.html">
-ABOUT		</a>
-</div>
-</div>
-	</li><li class="imMnMnMiddle imPage" data-link-paths=",/portfolio.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="portfolio.html">
-PORTFOLIO		</a>
-</div>
-</div>
-	</li><li class="imMnMnLast imPage" data-link-paths=",/contact.html">
-<div class="label-wrapper">
-<div class="label-inner-wrapper">
-		<a class="label" href="contact.html">
-CONTACT		</a>
 </div>
 </div>
 	</li></ul></div></div><!-- UNSEARCHABLE END --><script>

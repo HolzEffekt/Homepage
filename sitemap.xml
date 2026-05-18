@@ -6,22 +6,4 @@
 		<changefreq>monthly</changefreq>
 		<priority>0.5</priority>
 	</url>
-	<url>
-		<loc>http://localhost/about.html</loc>
-		<lastmod>2026-05-18</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://localhost/portfolio.html</loc>
-		<lastmod>2026-05-18</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
-	<url>
-		<loc>http://localhost/contact.html</loc>
-		<lastmod>2026-05-18</lastmod>
-		<changefreq>monthly</changefreq>
-		<priority>0.5</priority>
-	</url>
 </urlset>
