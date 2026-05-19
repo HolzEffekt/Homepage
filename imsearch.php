@@ -1,0 +1,198 @@
+<?php require_once("res/x5engine.php"); ?>
+<!DOCTYPE html><!-- HTML5 -->
+<html prefix="og: http://ogp.me/ns#" lang="de-DE" dir="ltr">
+	<head>
+		<title>Suchen - HolzEffekt - Kunsthandwerk</title>
+		<meta charset="utf-8" />
+		<!--[if IE]><meta http-equiv="ImageToolbar" content="False" /><![endif]-->
+		<meta name="author" content="Dennis Spliesgar" />
+		<meta name="generator" content="Incomedia WebSite X5 Evo 2023.2.6 - www.websitex5.com" />
+		<meta property="og:image" content="http://www.holzeffekt-online.de/favImage.png" />
+		<meta property="og:image:type" content="image/png">
+		<meta property="og:image:width" content="1280">
+		<meta property="og:image:height" content="846">
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		<link rel="stylesheet" href="style/reset.css?2023-2-6-0" media="screen,print" />
+		<link rel="stylesheet" href="style/print.css?2023-2-6-0" media="print" />
+		<link rel="stylesheet" href="style/style.css?2023-2-6-0" media="screen,print" />
+		<link rel="stylesheet" href="style/template.css?2023-2-6-0" media="screen" />
+		<link rel="stylesheet" href="pluginAppObj/imHeader_pluginAppObj_03/custom(2).css" media="screen, print" />
+		<link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_04/custom.css" media="screen, print" />
+		<style type='text/css'>#iubenda-pp-overlay { z-index: 10401 !important; } #iubenda-pp { z-index: 10402 !important; }</style><link rel="stylesheet" href="pluginAppObj/imFooter_pluginAppObj_05/custom.css" media="screen, print" />
+		<style type='text/css'>#iubenda-pp-overlay { z-index: 10401 !important; } #iubenda-pp { z-index: 10402 !important; }</style>
+		<link rel="stylesheet" href="pcss/imsearch.css?2023-2-6-0-639020895036587543" media="screen,print" />
+		<script src="res/jquery.js?2023-2-6-0"></script>
+		<script src="res/x5engine.js?2023-2-6-0" data-files-version="2023-2-6-0"></script>
+		<script src="pluginAppObj/imHeader_pluginAppObj_03/main(2).js"></script>
+		<script>
+			window.onload = function(){ checkBrowserCompatibility('Der von Ihnen verwendete Browser unterstützt nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','Der von Ihnen verwendete Browser unterstützt möglicherweise nicht die die Funktionen, die für die Anzeige dieser Website benötigt werden.','[1]Browser aktualisieren[/1] oder [2]Vorgang fortsetzen[/2].','http://outdatedbrowser.com/'); };
+			x5engine.utils.currentPagePath = 'imsearch.php';
+			x5engine.boot.push(function () { x5engine.imPageToTop.initializeButton({}); });
+		</script>
+		<link rel="icon" href="favicon.png?2023-2-6-0-639020895036497450" type="image/png" />
+	</head>
+	<body>
+		<div id="imPageExtContainer">
+			<div id="imPageIntContainer">
+				<div id="imHeaderBg"></div>
+				<div id="imFooterBg"></div>
+				<div id="imPage">
+					<header id="imHeader">
+						<h1 class="imHidden">Suchen - HolzEffekt - Kunsthandwerk</h1>
+						<div id="imHeaderObjects"><div id="imHeader_imMenuObject_01_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imHeader_imMenuObject_01"><div id="imHeader_imMenuObject_01_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
+		<div class="hamburger-menu-close-button"><span>&times;</span></div>
+	</div>
+</div>
+<ul class="menu-mobile-animated hidden">
+	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="index.html">
+Startseite		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/produktideen.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="produktideen.html">
+Produktideen		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/beispielgallerien.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="beispielgallerien.html">
+Beispielgallerien		</a>
+</div>
+</div>
+	</li><li class="imMnMnLast imPage" data-link-paths=",/kontakt-impressum.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="kontakt-impressum.html">
+Kontakt/Impressum		</a>
+</div>
+</div>
+	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+var imHeader_imMenuObject_01_settings = {
+	'menuId': 'imHeader_imMenuObject_01',
+	'responsiveMenuEffect': 'push',
+	'responsiveMenuLevelOpenEvent': 'mouseover',
+	'animationDuration': 1000,
+}
+x5engine.boot.push(function(){x5engine.initMenu(imHeader_imMenuObject_01_settings)});
+$(function () {$('#imHeader_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imHeader_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
+
+</script>
+</div><div id="imHeader_imObjectTitle_02_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_02"><span id ="imHeader_imObjectTitle_02_text" ><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">HolzEffekt</a></span></div></div><div id="imHeader_pluginAppObj_03_wrapper" class="template-object-wrapper"><!-- Social Icons v.20 --><div id="imHeader_pluginAppObj_03">
+            <div id="soc_imHeader_pluginAppObj_03">
+                <div class="wrapper horizontal flat none">
+                	<div class='social-icon flat'><a href='https://www.facebook.com/profile.php?id=100070178490546' target='_blank' aria-label='facebook'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><path d="M57,93V54H70.14l2-15H57V29.09c0-4.39.94-7.39,7.24-7.39H72V8.14a98.29,98.29,0,0,0-11.6-.6C48.82,7.54,41,14.61,41,27.59V39H27V54H41V93H57Z"/></svg><span class='fallbacktext'>Fb</span></a></div><div class='social-icon flat'><a href='https://www.instagram.com/holz.effekt/?hl=de' target='_blank' aria-label='instagram'><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><g><path d="M50,15.16c11.35,0,12.69,0,17.17.25a23.52,23.52,0,0,1,7.89,1.46,14.07,14.07,0,0,1,8.07,8.07,23.52,23.52,0,0,1,1.46,7.89c0.2,4.48.25,5.83,0.25,17.17s0,12.69-.25,17.17a23.52,23.52,0,0,1-1.46,7.89,14.07,14.07,0,0,1-8.07,8.07,23.52,23.52,0,0,1-7.89,1.46c-4.48.2-5.82,0.25-17.17,0.25s-12.69,0-17.17-.25a23.52,23.52,0,0,1-7.89-1.46,14.07,14.07,0,0,1-8.07-8.07,23.52,23.52,0,0,1-1.46-7.89c-0.2-4.48-.25-5.83-0.25-17.17s0-12.69.25-17.17a23.52,23.52,0,0,1,1.46-7.89,14.07,14.07,0,0,1,8.07-8.07,23.52,23.52,0,0,1,7.89-1.46c4.48-.2,5.83-0.25,17.17-0.25M50,7.5c-11.54,0-13,0-17.52.26a31.19,31.19,0,0,0-10.32,2A21.73,21.73,0,0,0,9.73,22.16a31.19,31.19,0,0,0-2,10.32C7.55,37,7.5,38.46,7.5,50s0,13,.26,17.52a31.19,31.19,0,0,0,2,10.32A21.73,21.73,0,0,0,22.16,90.27a31.19,31.19,0,0,0,10.32,2c4.53,0.21,6,.26,17.52.26s13,0,17.52-.26a31.19,31.19,0,0,0,10.32-2A21.73,21.73,0,0,0,90.27,77.84a31.19,31.19,0,0,0,2-10.32c0.21-4.53.26-6,.26-17.52s0-13-.26-17.52a31.19,31.19,0,0,0-2-10.32A21.73,21.73,0,0,0,77.84,9.73a31.19,31.19,0,0,0-10.32-2C63,7.55,61.54,7.5,50,7.5h0Z"/><path d="M50,28.18A21.82,21.82,0,1,0,71.82,50,21.82,21.82,0,0,0,50,28.18Zm0,36A14.17,14.17,0,1,1,64.17,50,14.17,14.17,0,0,1,50,64.17Z"/><circle cx="72.69" cy="27.31" r="5.1"/></g></svg><span class='fallbacktext'>Ig</span></a></div>
+                </div>
+
+            </div>
+                <script>
+                    socialicons_imHeader_pluginAppObj_03();
+                </script>
+        </div></div><div id="imHeader_imObjectTitle_04_wrapper" class="template-object-wrapper"><div id="imHeader_imObjectTitle_04"><span id ="imHeader_imObjectTitle_04_text" ><a href="index.html" onclick="return x5engine.utils.location('index.html', null, false)">Kunsthandwerk</a></span></div></div></div>
+					</header>
+					<div id="imStickyBarContainer">
+						<div id="imStickyBarGraphics"></div>
+						<div id="imStickyBar">
+							<div id="imStickyBarObjects"><div id="imStickyBar_imMenuObject_01_wrapper" class="template-object-wrapper"><!-- UNSEARCHABLE --><div id="imStickyBar_imMenuObject_01"><div id="imStickyBar_imMenuObject_01_container"><div class="hamburger-button hamburger-component"><div><div><div class="hamburger-bar"></div><div class="hamburger-bar"></div><div class="hamburger-bar"></div></div></div></div><div class="hamburger-menu-background-container hamburger-component">
+	<div class="hamburger-menu-background menu-mobile menu-mobile-animated hidden">
+		<div class="hamburger-menu-close-button"><span>&times;</span></div>
+	</div>
+</div>
+<ul class="menu-mobile-animated hidden">
+	<li class="imMnMnFirst imPage" data-link-paths=",/index.html,/">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="index.html">
+Startseite		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/produktideen.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="produktideen.html">
+Produktideen		</a>
+</div>
+</div>
+	</li><li class="imMnMnMiddle imPage" data-link-paths=",/beispielgallerien.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="beispielgallerien.html">
+Beispielgallerien		</a>
+</div>
+</div>
+	</li><li class="imMnMnLast imPage" data-link-paths=",/kontakt-impressum.html">
+<div class="label-wrapper">
+<div class="label-inner-wrapper">
+		<a class="label" href="kontakt-impressum.html">
+Kontakt/Impressum		</a>
+</div>
+</div>
+	</li></ul></div></div><!-- UNSEARCHABLE END --><script>
+var imStickyBar_imMenuObject_01_settings = {
+	'menuId': 'imStickyBar_imMenuObject_01',
+	'responsiveMenuEffect': 'push',
+	'responsiveMenuLevelOpenEvent': 'mouseover',
+	'animationDuration': 1000,
+}
+x5engine.boot.push(function(){x5engine.initMenu(imStickyBar_imMenuObject_01_settings)});
+$(function () {$('#imStickyBar_imMenuObject_01_container ul li').not('.imMnMnSeparator').each(function () {    var $this = $(this), timeout = 0;    $this.on('mouseenter', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         clearTimeout(timeout);        setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeIn(); }, 250);    }).on('mouseleave', function () {        if($(this).parents('#imStickyBar_imMenuObject_01_container-menu-opened').length > 0) return;         timeout = setTimeout(function () { $this.children('ul, .multiple-column').stop(false, false).fadeOut(); }, 250);    });});});
+
+</script>
+</div></div>
+						</div>
+					</div>
+					<a class="imHidden" href="#imGoToCont" title="Überspringen Sie das Hauptmenü">Direkt zum Seiteninhalt</a>
+					<div id="imSideBar">
+						<div id="imSideBarObjects"><div id="imSideBar_imObjectImage_01_wrapper" class="template-object-wrapper"><div id="imSideBar_imObjectImage_01"><div id="imSideBar_imObjectImage_01_container"><img src="images/empty-GT_imagea-1--1-.png" title="" alt="" width="140" height="140" />
+</div></div></div></div>
+					</div>
+					<div id="imContentGraphics"></div>
+					<main id="imContent">
+						<a id="imGoToCont"></a>
+						<div id="imSearchPage">
+						<h2 id="imPgTitle">Suchergebnisse</h2>
+						<?php
+						$search = new imSearch();
+						$keys = isset($_GET['search']) ? @htmlspecialchars($_GET['search'], ENT_COMPAT) : "";
+						$page = isset($_GET['page']) ? @htmlspecialchars($_GET['page']) : 0;
+						$type = isset($_GET['type']) ? @htmlspecialchars($_GET['type']) : "pages"; ?>
+						<div class="searchPageContainer">
+						<?php echo $search->search($keys, $page, $type); ?>
+						</div>
+						</div>
+						
+					</main>
+					<footer id="imFooter">
+						<div id="imFooterObjects"><div id="imFooter_imObjectTitle_01_wrapper" class="template-object-wrapper"><div id="imFooter_imObjectTitle_01"><span id ="imFooter_imObjectTitle_01_text" >© 2023 by DS</span></div></div><div id="imFooter_imTextObject_02_wrapper" class="template-object-wrapper"><div id="imFooter_imTextObject_02">
+	<div data-index="0"  class="text-tab-content grid-prop current-tab "  id="imFooter_imTextObject_02_tab0" style="opacity: 1; ">
+		<div class="text-inner">
+			<div class="imTACenter"><span class="fs11lh1-5 cf1"><i>HolzEffekt - Dennis Spliesgar</i></span></div><div class="imTACenter"><span class="fs11lh1-5"><span class="imTALeft">ds@holzeffekt-online.de</span></span></div>
+		</div>
+	</div>
+
+</div>
+</div><div id="imFooter_pluginAppObj_04_wrapper" class="template-object-wrapper"><!-- iubenda Privacy Policy v.11 --><div id="imFooter_pluginAppObj_04">
+           
+       <div id='imFooter_pluginAppObj_04_container'><a href="https://www.iubenda.com/privacy-policy/57584910" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Datenschutzerklärung ">Datenschutzerklärung</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></div>
+
+      </div></div><div id="imFooter_pluginAppObj_05_wrapper" class="template-object-wrapper"><!-- iubenda Privacy Policy v.11 --><div id="imFooter_pluginAppObj_05">
+           
+       <div id='imFooter_pluginAppObj_05_container'><a href="https://www.iubenda.com/privacy-policy/57584910/cookie-policy" class="iubenda-white iubenda-noiframe iubenda-embed iubenda-noiframe " title="Cookie-Richtlinie ">Cookie-Richtlinie</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script></div>
+
+      </div></div></div>
+					</footer>
+				</div>
+				<span class="imHidden"><a href="#imGoToCont" title="Lesen Sie den Inhalt der Seite noch einmal durch">Zurück zum Seiteninhalt</a></span>
+			</div>
+		</div>
+		
+		<noscript class="imNoScript"><div class="alert alert-red">Um diese Website nutzen zu können, aktivieren Sie bitte JavaScript.</div></noscript>
+	</body>
+</html>
